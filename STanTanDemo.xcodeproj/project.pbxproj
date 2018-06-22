@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2CF4F620DCC32600F9C49B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF4F520DCC32600F9C49B /* AppDelegate.m */; };
+		CF2CF4F920DCC32600F9C49B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF4F820DCC32600F9C49B /* ViewController.m */; };
+		CF2CF4FC20DCC32600F9C49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2CF4FA20DCC32600F9C49B /* Main.storyboard */; };
+		CF2CF4FE20DCC32900F9C49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2CF4FD20DCC32900F9C49B /* Assets.xcassets */; };
+		CF2CF50120DCC32900F9C49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2CF4FF20DCC32900F9C49B /* LaunchScreen.storyboard */; };
+		CF2CF50420DCC32900F9C49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF50320DCC32900F9C49B /* main.m */; };
+		CF2CF50E20DCC32900F9C49B /* STanTanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF50D20DCC32900F9C49B /* STanTanDemoTests.m */; };
+		CF2CF51920DCC32900F9C49B /* STanTanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF51820DCC32900F9C49B /* STanTanDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2CF50A20DCC32900F9C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2CF4E920DCC32600F9C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2CF4F020DCC32600F9C49B;
+			remoteInfo = STanTanDemo;
+		};
+		CF2CF51520DCC32900F9C49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2CF4E920DCC32600F9C49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2CF4F020DCC32600F9C49B;
+			remoteInfo = STanTanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF2CF4F120DCC32600F9C49B /* STanTanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STanTanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2CF4F420DCC32600F9C49B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF2CF4F520DCC32600F9C49B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF2CF4F720DCC32600F9C49B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF2CF4F820DCC32600F9C49B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF2CF4FB20DCC32600F9C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2CF4FD20DCC32900F9C49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2CF50020DCC32900F9C49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2CF50220DCC32900F9C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2CF50320DCC32900F9C49B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2CF50920DCC32900F9C49B /* STanTanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STanTanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2CF50D20DCC32900F9C49B /* STanTanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STanTanDemoTests.m; sourceTree = "<group>"; };
+		CF2CF50F20DCC32900F9C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2CF51420DCC32900F9C49B /* STanTanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STanTanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2CF51820DCC32900F9C49B /* STanTanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STanTanDemoUITests.m; sourceTree = "<group>"; };
+		CF2CF51A20DCC32900F9C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2CF4EE20DCC32600F9C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF50620DCC32900F9C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF51120DCC32900F9C49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2CF4E820DCC32600F9C49B = {
+			isa = PBXGroup;
+			children = (
+				CF2CF4F320DCC32600F9C49B /* STanTanDemo */,
+				CF2CF50C20DCC32900F9C49B /* STanTanDemoTests */,
+				CF2CF51720DCC32900F9C49B /* STanTanDemoUITests */,
+				CF2CF4F220DCC32600F9C49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2CF4F220DCC32600F9C49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2CF4F120DCC32600F9C49B /* STanTanDemo.app */,
+				CF2CF50920DCC32900F9C49B /* STanTanDemoTests.xctest */,
+				CF2CF51420DCC32900F9C49B /* STanTanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2CF4F320DCC32600F9C49B /* STanTanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF2CF4F420DCC32600F9C49B /* AppDelegate.h */,
+				CF2CF4F520DCC32600F9C49B /* AppDelegate.m */,
+				CF2CF4F720DCC32600F9C49B /* ViewController.h */,
+				CF2CF4F820DCC32600F9C49B /* ViewController.m */,
+				CF2CF4FA20DCC32600F9C49B /* Main.storyboard */,
+				CF2CF4FD20DCC32900F9C49B /* Assets.xcassets */,
+				CF2CF4FF20DCC32900F9C49B /* LaunchScreen.storyboard */,
+				CF2CF50220DCC32900F9C49B /* Info.plist */,
+				CF2CF50320DCC32900F9C49B /* main.m */,
+			);
+			path = STanTanDemo;
+			sourceTree = "<group>";
+		};
+		CF2CF50C20DCC32900F9C49B /* STanTanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2CF50D20DCC32900F9C49B /* STanTanDemoTests.m */,
+				CF2CF50F20DCC32900F9C49B /* Info.plist */,
+			);
+			path = STanTanDemoTests;
+			sourceTree = "<group>";
+		};
+		CF2CF51720DCC32900F9C49B /* STanTanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2CF51820DCC32900F9C49B /* STanTanDemoUITests.m */,
+				CF2CF51A20DCC32900F9C49B /* Info.plist */,
+			);
+			path = STanTanDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2CF4F020DCC32600F9C49B /* STanTanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2CF51D20DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemo" */;
+			buildPhases = (
+				CF2CF4ED20DCC32600F9C49B /* Sources */,
+				CF2CF4EE20DCC32600F9C49B /* Frameworks */,
+				CF2CF4EF20DCC32600F9C49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STanTanDemo;
+			productName = STanTanDemo;
+			productReference = CF2CF4F120DCC32600F9C49B /* STanTanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2CF50820DCC32900F9C49B /* STanTanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2CF52020DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemoTests" */;
+			buildPhases = (
+				CF2CF50520DCC32900F9C49B /* Sources */,
+				CF2CF50620DCC32900F9C49B /* Frameworks */,
+				CF2CF50720DCC32900F9C49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2CF50B20DCC32900F9C49B /* PBXTargetDependency */,
+			);
+			name = STanTanDemoTests;
+			productName = STanTanDemoTests;
+			productReference = CF2CF50920DCC32900F9C49B /* STanTanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF2CF51320DCC32900F9C49B /* STanTanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2CF52320DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemoUITests" */;
+			buildPhases = (
+				CF2CF51020DCC32900F9C49B /* Sources */,
+				CF2CF51120DCC32900F9C49B /* Frameworks */,
+				CF2CF51220DCC32900F9C49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2CF51620DCC32900F9C49B /* PBXTargetDependency */,
+			);
+			name = STanTanDemoUITests;
+			productName = STanTanDemoUITests;
+			productReference = CF2CF51420DCC32900F9C49B /* STanTanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2CF4E920DCC32600F9C49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Superman;
+				TargetAttributes = {
+					CF2CF4F020DCC32600F9C49B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CF2CF50820DCC32900F9C49B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CF2CF4F020DCC32600F9C49B;
+					};
+					CF2CF51320DCC32900F9C49B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CF2CF4F020DCC32600F9C49B;
+					};
+				};
+			};
+			buildConfigurationList = CF2CF4EC20DCC32600F9C49B /* Build configuration list for PBXProject "STanTanDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2CF4E820DCC32600F9C49B;
+			productRefGroup = CF2CF4F220DCC32600F9C49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2CF4F020DCC32600F9C49B /* STanTanDemo */,
+				CF2CF50820DCC32900F9C49B /* STanTanDemoTests */,
+				CF2CF51320DCC32900F9C49B /* STanTanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2CF4EF20DCC32600F9C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2CF50120DCC32900F9C49B /* LaunchScreen.storyboard in Resources */,
+				CF2CF4FE20DCC32900F9C49B /* Assets.xcassets in Resources */,
+				CF2CF4FC20DCC32600F9C49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF50720DCC32900F9C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF51220DCC32900F9C49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2CF4ED20DCC32600F9C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2CF4F920DCC32600F9C49B /* ViewController.m in Sources */,
+				CF2CF50420DCC32900F9C49B /* main.m in Sources */,
+				CF2CF4F620DCC32600F9C49B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF50520DCC32900F9C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2CF50E20DCC32900F9C49B /* STanTanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2CF51020DCC32900F9C49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2CF51920DCC32900F9C49B /* STanTanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2CF50B20DCC32900F9C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2CF4F020DCC32600F9C49B /* STanTanDemo */;
+			targetProxy = CF2CF50A20DCC32900F9C49B /* PBXContainerItemProxy */;
+		};
+		CF2CF51620DCC32900F9C49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2CF4F020DCC32600F9C49B /* STanTanDemo */;
+			targetProxy = CF2CF51520DCC32900F9C49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2CF4FA20DCC32600F9C49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2CF4FB20DCC32600F9C49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2CF4FF20DCC32900F9C49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2CF50020DCC32900F9C49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2CF51B20DCC32900F9C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2CF51C20DCC32900F9C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2CF51E20DCC32900F9C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2CF51F20DCC32900F9C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2CF52120DCC32900F9C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STanTanDemo.app/STanTanDemo";
+			};
+			name = Debug;
+		};
+		CF2CF52220DCC32900F9C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STanTanDemo.app/STanTanDemo";
+			};
+			name = Release;
+		};
+		CF2CF52420DCC32900F9C49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STanTanDemo;
+			};
+			name = Debug;
+		};
+		CF2CF52520DCC32900F9C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = STanTanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STanTanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2CF4EC20DCC32600F9C49B /* Build configuration list for PBXProject "STanTanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2CF51B20DCC32900F9C49B /* Debug */,
+				CF2CF51C20DCC32900F9C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2CF51D20DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2CF51E20DCC32900F9C49B /* Debug */,
+				CF2CF51F20DCC32900F9C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2CF52020DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2CF52120DCC32900F9C49B /* Debug */,
+				CF2CF52220DCC32900F9C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2CF52320DCC32900F9C49B /* Build configuration list for PBXNativeTarget "STanTanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2CF52420DCC32900F9C49B /* Debug */,
+				CF2CF52520DCC32900F9C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2CF4E920DCC32600F9C49B /* Project object */;
+}
