@@ -15,6 +15,7 @@
 		CF2CF50420DCC32900F9C49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF50320DCC32900F9C49B /* main.m */; };
 		CF2CF50E20DCC32900F9C49B /* STanTanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF50D20DCC32900F9C49B /* STanTanDemoTests.m */; };
 		CF2CF51920DCC32900F9C49B /* STanTanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF51820DCC32900F9C49B /* STanTanDemoUITests.m */; };
+		CF2CF52820DCCCF900F9C49B /* SDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2CF52720DCCCF900F9C49B /* SDraggableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		CF2CF51420DCC32900F9C49B /* STanTanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STanTanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2CF51820DCC32900F9C49B /* STanTanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STanTanDemoUITests.m; sourceTree = "<group>"; };
 		CF2CF51A20DCC32900F9C49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2CF52620DCCCF900F9C49B /* SDraggableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDraggableView.h; sourceTree = "<group>"; };
+		CF2CF52720DCCCF900F9C49B /* SDraggableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDraggableView.m; sourceTree = "<group>"; };
+		CF2CF52920DCCDCF00F9C49B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CF2CF52A20DCCE7300F9C49B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,10 @@
 				CF2CF4F520DCC32600F9C49B /* AppDelegate.m */,
 				CF2CF4F720DCC32600F9C49B /* ViewController.h */,
 				CF2CF4F820DCC32600F9C49B /* ViewController.m */,
+				CF2CF52620DCCCF900F9C49B /* SDraggableView.h */,
+				CF2CF52720DCCCF900F9C49B /* SDraggableView.m */,
+				CF2CF52A20DCCE7300F9C49B /* Header.h */,
+				CF2CF52920DCCDCF00F9C49B /* PrefixHeader.pch */,
 				CF2CF4FA20DCC32600F9C49B /* Main.storyboard */,
 				CF2CF4FD20DCC32900F9C49B /* Assets.xcassets */,
 				CF2CF4FF20DCC32900F9C49B /* LaunchScreen.storyboard */,
@@ -264,6 +273,7 @@
 			files = (
 				CF2CF4F920DCC32600F9C49B /* ViewController.m in Sources */,
 				CF2CF50420DCC32900F9C49B /* main.m in Sources */,
+				CF2CF52820DCCCF900F9C49B /* SDraggableView.m in Sources */,
 				CF2CF4F620DCC32600F9C49B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,14 +444,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
+				GCC_PREFIX_HEADER = /Users/superman/Desktop/STanTanDemo/STanTanDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = STanTanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,14 +463,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
+				GCC_PREFIX_HEADER = /Users/superman/Desktop/STanTanDemo/STanTanDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = STanTanDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ffd.STanTanDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,7 +7,44 @@
 //
 
 #import <UIKit/UIKit.h>
+#define ROTATION_ANGLE M_PI/8
+#define CLICK_ANIMATION_TIME 0.5
+#define RESET_ANIMATION_TIME 0.3
+
+@protocol SDraggableViewDelegate <NSObject>
+-(void)cardSwiped:(UIView *)card LorR:(BOOL)isRight;
+-(void)moveCards:(CGFloat)distance;
+-(void)moveBackCards;
+-(void)adjustOtherCards;
+@end
 
 @interface SDraggableView : UIView
 
+
+@property (weak) id <SDraggableViewDelegate> delegate;
+
+@property (nonatomic, strong)UIPanGestureRecognizer *panGestureRecognizer;
+@property (nonatomic)CGPoint originalPoint;
+@property (nonatomic)CGPoint originalCenter;
+@property (nonatomic)CGAffineTransform originalTransform;
+@property (nonatomic)BOOL canPan;
+
+@property (nonatomic)NSDictionary *userInfo;
+
+@property (nonatomic,strong)UIImageView *headerImageView;
+@property (nonatomic,strong)UILabel *numLabel;
+@property (nonatomic,strong)UIButton* yesButton;
+@property (nonatomic,strong)UIButton* noButton;
+
+////改
+//@property (nonatomic,strong)UILabel *titleLa;  //标题
+//@property (nonatomic,strong)UILabel *seriOrEnd;    //连载,完结
+//@property (nonatomic,strong)UILabel *wordsCount;    //连载,完结
+//
+//@property (nonatomic,strong)UIImageView *iconImageView;
+//@property (nonatomic,strong)UILabel *authorLa;    //连载,完结
+
+
+-(void)leftClickAction;
+-(void)rightClickAction;
 @end

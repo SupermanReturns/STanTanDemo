@@ -8,8 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "SDraggableView.h"
 
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+
+
+#define PAN_DISTANCE 120
+//#define CARD_WIDTH lengthFit(SCREENWIDTH-60*2)
+//#define CARD_HEIGHT lengthFit(SCREENHEIGHT-25-60-35*2)
+
+#define CARD_WIDTH SCREENWIDTH-50*2
+#define CARD_HEIGHT  SCREENHEIGHT-25-60-35*2-64-49
+@interface ViewController : UIViewController<SDraggableViewDelegate>
+
+@property (retain,nonatomic)NSMutableArray* allCards;
+@property (nonatomic) CGPoint lastCardCenter;
+@property (nonatomic) CGAffineTransform lastCardTransform;
+
+@property (nonatomic,strong)NSMutableArray *sourceObject;
 
 @end
 
