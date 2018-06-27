@@ -156,7 +156,6 @@
         
         //        ZTDraggableView *draggableView = [[ZTDraggableView alloc]initWithFrame:CGRectMake([[UIScreen mainScreen]bounds].size.width+CARD_WIDTH, self.view.center.y-CARD_HEIGHT/2, CARD_WIDTH, CARD_HEIGHT)];
         SDraggableView *draggableView = [[SDraggableView alloc]initWithFrame:CGRectMake(60, 20, CARD_WIDTH, CARD_HEIGHT)];
-        draggableView.backgroundColor=[UIColor greenColor];
         
         
         //        if (i>0&&i<CARD_NUM-1) {
