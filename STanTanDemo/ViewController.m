@@ -43,7 +43,6 @@
 
 #pragma mark - 添加控件
 -(void)addControls{
-    
     UIButton *reloadBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [reloadBtn setTitle:@"Reload" forState:UIControlStateNormal];
     reloadBtn.frame = CGRectMake(self.view.center.x-25, self.view.frame.size.height-60, 50, 30);
@@ -186,7 +185,6 @@
         [self like:card.userInfo];
     }else{
         [self unlike:card.userInfo];
-        
     }
     
     [_allCards removeObject:card];

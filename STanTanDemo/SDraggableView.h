@@ -36,13 +36,6 @@
 @property (nonatomic,strong)UIButton* yesButton;
 @property (nonatomic,strong)UIButton* noButton;
 
-////改
-//@property (nonatomic,strong)UILabel *titleLa;  //标题
-//@property (nonatomic,strong)UILabel *seriOrEnd;    //连载,完结
-//@property (nonatomic,strong)UILabel *wordsCount;    //连载,完结
-//
-//@property (nonatomic,strong)UIImageView *iconImageView;
-//@property (nonatomic,strong)UILabel *authorLa;    //连载,完结
 
 
 -(void)leftClickAction;
