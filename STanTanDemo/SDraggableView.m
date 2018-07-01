@@ -204,7 +204,6 @@
                          self.center = finishPoint;
                          self.transform = CGAffineTransformMakeRotation(ROTATION_ANGLE);
                      }completion:^(BOOL complete){
-                         
                          self.yesButton.transform=CGAffineTransformMakeScale(1, 1);
                          [self.delegate cardSwiped:self LorR:YES];
                      }];
@@ -279,7 +278,6 @@
     CGPoint finishPoint = CGPointMake(-CARD_WIDTH*2/3, 2*PAN_DISTANCE+self.frame.origin.y);
     [UIView animateWithDuration:CLICK_ANIMATION_TIME
                      animations:^{
-                         
                          self.noButton.transform=CGAffineTransformMakeScale(1.5, 1.5);
                          self.center = finishPoint;
                          self.transform = CGAffineTransformMakeRotation(-ROTATION_ANGLE);
